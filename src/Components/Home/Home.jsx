@@ -5,7 +5,7 @@ import SideIcons from '../SideIcons/SideIcons';
 import TechStacks from '../TechStacks/TechStacks';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import image from '../../assets/DSC_9195.JPG';
+import ME from '../../assets/DSC_9195.JPG';
 
 import { Button } from '../Button/Button';
 import About from '../About/About';
@@ -85,7 +85,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/drive/folders/1gpouBkd_7P6mHr1gLQfUZL4ddD6Z2oa9' // Resume
+							href='https://drive.google.com/file/d/1SJqGO40kD33O2ikiH4PgNrtkqTMHzJ9o/view?usp=sharing' // Resume
 							target='blank'
 						>
 							<Button
@@ -111,7 +111,7 @@ const Home = ({ scrollRef }) => {
 					className={styles.profileImage}
 				>
 					<img
-						src={image} //Profile Picture
+						src={ME} //Profile Picture
 						alt='Profile Picture'
 					/>
 				</div>
